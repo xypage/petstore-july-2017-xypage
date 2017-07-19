@@ -12,14 +12,17 @@
 
 <!-- nav bar -->
 	<header class="container">
-		<img src="img\petstore_logo.png" alt="petstore logo" class="img-responsive logo-img pull-left">
-		<h1 class="logo-text pull-left">Pet Store</h1>
-		<ul class="nav nav-pills pull-right nav-links">
-			<li role="presentation"><a href="#" class="nav-link-style">Home</a></li>
-			<li role="presentation"><a href="#" class="nav-link-style">Products</a></li>
-			<li role="presentation" class="list-item"><a href="#" class="nav-link-style">Contact Us</a></li>
-		</ul>
-
+		<div class="flex">
+			<div class="logo-wrapper">
+				<img src="img\petstore_logo.png" alt="petstore logo" class="img-responsive logo-img pull-left">
+				<h1 class="logo-text pull-left">Pet Store</h1>
+			</div>
+			<ul class="nav nav-pills pull-right nav-links">
+				<li role="presentation"><a href="#" class="nav-link-style">Home</a></li>
+				<li role="presentation"><a href="#" class="nav-link-style">Products</a></li>
+				<li role="presentation" class="list-item"><a href="#" class="nav-link-style">Contact Us</a></li>
+			</ul>
+		</div>
 	</header>
 <!-- end nav bar -->
 <!-- Hero section -->
@@ -102,10 +105,27 @@
 <!-- begin footer -->
 	<footer>
 		<div class="container-fluid footer-container">
-			<div class="row">
-				<div class="col-xs-3 footer-sections foot-left"></div>
-				<div class="col-xs-3 footer-sections foot-mid"></div>
-				<div class="col-xs-3 footer-sections foot-right"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2">
+						<img src="img/petstore_logo.png" alt="logo" class="img-responsive logo-img">
+					</div>
+					<div class="col-sm-3 address-border">
+						<address>
+							Pet Store<br>
+							Fresno, CA<br>
+							<a href="mailto:info@petstore.com">info@petstore.com</a>
+						</address>
+					</div>
+					<div class="col-sm-3">
+						<a href="#" class="dis-block"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a>
+						<a href="#" class="dis-block"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a>
+						<a href="#" class="dis-block"><i class="fa fa-linkedin" aria-hidden="true"></i>  LinkedIn</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 text-center copyright">&copy; Petstore Inc. All Rights Reserved.</div>
+				</div>
 			</div>
 		</div>
 	</footer>

@@ -12,12 +12,20 @@
   color:#ff827b; /*orange/pink logo color*/
 }
 .nav-links {
-  margin-top:20px;
+  /*margin-top:20px;*/
 }
 .nav-link-style {
   background-color: white;
   color:#61aee6;
   font-size:16px;
+}
+.flex {
+  display:flex;
+  align-items:flex-end;
+  justify-content:space-between;
+}
+.logo-wrapper {
+  width:50%;
 }
 
 /*jumbotron style*/
@@ -52,6 +60,28 @@
 }
 
 /*footer*/
-.footer-container {
-  background-color: #231f20;
+footer {
+  background-color: #333;
+  height:150px;
+  padding:16px;
+}
+footer img.logo-img {
+  width:90px;
+}
+.address-border {
+  border-left:1px solid #505050;
+  border-right:1px solid #505050;
+}
+footer a, footer address {
+  color:#BFC0C1;
+}
+footer a:hover {
+  color: #BFC0C1;
+  text-decoration: none;
+}
+.dis-block {
+  display:block;
+}
+.copyright {
+  color:#505050;
 }
